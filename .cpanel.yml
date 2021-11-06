@@ -1,6 +1,6 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/milosevi/public_html/milosevic
+ - export DEPLOYPATH=/home/milosevi/public_html/milosevic/
  - /bin/cp index.html $DEPLOYPATH
  - /bin/cp -R assets $DEPLOYPATH
